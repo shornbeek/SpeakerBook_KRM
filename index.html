@@ -83,7 +83,7 @@
         .textgrade {
             font-size: 24px;
             font-weight: bolder;
-            background: -webkit-linear-gradient(rgb(74, 117, 238), rgb(39, 35, 95));
+            background: -webkit-linear-gradient(rgb(56, 163, 209), rgb(89, 49, 150));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             padding: 30px 5% 30px 5%;
@@ -228,10 +228,95 @@
 
         }
 
-        .colorblack{
+        .colorblack {
             color: black;
             padding-top: 20px;
             font-size: 14px;
+        }
+
+        .demobutton {
+            background-color: rgb(250, 218, 36);
+            border: none;
+            color: rgb(22, 20, 53);
+        }
+
+        .fieldsizing {}
+
+        .floatformname {
+            float: left;
+        }
+
+        .maxicons {
+            max-width: 120px;
+        }
+
+        .navbar {
+            -webkit-box-shadow: 0 8px 6px -6px #999;
+            -moz-box-shadow: 0 8px 6px -6px #999;
+            box-shadow: 0 8px 6px -6px #999;
+
+            /* the rest of your styling */
+        }
+
+        .graybackground {
+            background-color: rgb(248, 248, 248);
+        }
+
+
+
+        /* * {
+            box-sizing: border-box;
+        } */
+
+        .bg-img {
+            /* The image used */
+            background-image: url("images/speakerbook_app_main_image_pharma.png");
+
+            /* Control the height of the image */
+            min-height: 450px;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        /* Add styles to the form container */
+
+
+        /* Full-width input fields */
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            border: none;
+            background: #f1f1f1;
+        }
+
+        input[type=text]:focus,
+        input[type=password]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+
+        /* Set a style for the submit button */
+
+
+        .btn:hover {
+            opacity: 1;
+        }
+
+        .formedges{
+/* padding-right: 4%; */
+padding-left: 5%;
+padding-top: 100px;
+        }
+
+        .legsize{
+font-size: 14px;
+color: white;
         }
     </style>
     <title>Speakerbook Pharma CRM. Leading RX Analytics. Healthcare Market Insights. </title>
@@ -239,86 +324,207 @@
 
 <body>
 
-        <nav class="navbar navbar-expand-md navbar-light">
-                <a href="index.html"> <img class="navbar-brand" src="images/Speakerbook_logo_Oncology.png" alt="Speakerbook logo Oncology"></a>
-        
-                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-        
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="SpeakerBook_Analytics.html">Analytics</a>
-                            </li> 
-                            <li class="nav-item">
-                                    <a class="nav-link" href="Market_Intel.html">Market Intel</a>
-                                </li>
-                        <li class="nav-item ">
-                            <a class="nav-link" href="SpeakerBook_KRM.html">Oncology KRM</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="Blog_SpeakerBook.html">Blog</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+    <nav class="navbar navbar-expand-md navbar-light">
+        <a href="index.html"> <img class="navbar-brand" src="images/Speakerbook_logo_Oncology.png"
+                alt="Speakerbook logo Oncology"></a>
 
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="SpeakerBook_Analytics.html">Analytics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Market_Intel.html">Market Intel</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="SpeakerBook_KRM.html">Oncology KRM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="Blog_SpeakerBook.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-primary demobutton"
+                        style="position: absolute; right: 0; margin-right: 25px;" data-toggle="modal"
+                        data-target="#exampleModal">
+                        Get a Demo
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <div class="container fart">
         <center>
             <h1 class="textgrade">Tools To Optimize Speaker Bureau And KOL Engagement</h1>
+            <!-- <h5>Use Industry Payments to Engage with the Right Medical Experts</h5> -->
         </center>
 
-        <img class="card-img-top" src="images/speakerbook_app_main_image_pharma.png" alt="Card image cap">
-        <center>
-            <!-- <h1 class="textgrade">We Bring Speaker Program Optimization to Healthcare</h1> -->
-            <!-- <h1 class="textgrade">Pharma CRM built from competitive data.</h1> -->
+        <!-- <ul>
+            <li>KOL Management Applications for Life Sciences</li>
+            <li>Use Industry Payments to Engage the Right Experts</li>
+            <li>Develop strong partnerships with the right Medical Experts</li>
+
+        </ul> -->
+
+        <!-- <img class="card-img-top" src="images/speakerbook_app_main_image_pharma.png" alt="Card image cap"> -->
+
+
+        <div class="bg-img">
+                <div>
+                        <div class="row">
+                            <div class="col-6 formedges">
+                                <script type="text/javascript">var submitted = false;</script>
+                                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                                    onload="if(submitted) {window.location='contact.html';}"></iframe>
+                                <form
+                                    action="https://docs.google.com/forms/d/e/1FAIpQLScK0s4F8kMEojAL8lPAK7LN56_PjuPQMTZxr7yvK_itzqNqrA/formResponse"
+                                    method="post" target="hidden_iframe" onsubmit="submitted=true;">
+            
+            
+            
+                                    <fieldset class="fieldsizing">
+                                        <legend for="1633920210" class=" legsize">Name</legend>
+                                        <div class="form-group">
+                                            <input id="2005620554" type="text" name="entry.2005620554" class="form-control"
+                                                required>
+                                        </div>
+                                    </fieldset>
+            
+            
+                                    <fieldset>
+                                        <legend for="227649005" class=" legsize">Email</legend>
+                                        <div class="form-group">
+                                            <input id="1045781291" type="text" name="entry.1045781291" class="form-control"
+                                                required>
+                                        </div>
+                                    </fieldset>
+        
+
+                            
+                                <fieldset>
+                                    <legend for="1846923513" class=" legsize">Comments</legend>
+                                    <div class="form-group">
+                                        <textarea id="839337160" name="entry.839337160" class="form-control"></textarea>
+                                    </div>
+                                </fieldset>
+            
+                                <input type="hidden" name="fvv" value="1">
+                                <input type="hidden" name="fbzx" value="8388058017332724094">
+            
+                                <input type="hidden" name="pageHistory" value="0">
+            
+                                <input class="btn btn-primary" type="submit" value="Get A Demo">
+                                </form>
+                                <div class="col-6">
+                            </div>
+                        </div>
+                    </div>
+             </div>
+        </div>
+
+
+  
+
+
+
+        <div>
+
+            <center>
+                <h1 class="textgrade">View 100's of Industries to Engage with the Right Experts</h1>
+            </center>
+            <div class="row">
+                <div class="col">
+                    <center> <img class="card-img-top maxicons" src="images/Oncology_logo_SpeakerBook.png"
+                            alt="Oncology_logo_SpeakerBook">
+                        <p class="">Oncology</p>
+                    </center>
+                </div>
+                <div class="col">
+                    <center> <img class="card-img-top maxicons" src="images/central_nervous_system_logo_speakerbook.png"
+                            alt="central_nervous_system_logo_speakerbook">
+                        <p class="">CNS</p>
+                    </center>
+                </div>
+                <div class="col">
+                    <center> <img class="card-img-top maxicons" src="images/Cardiology_Medical_logo.png"
+                            alt="Cardiology_Medical_logo">
+                        <p class="">Cardiology</p>
+                    </center>
+                </div>
+                <div class="col">
+                    <center> <img class="card-img-top maxicons" src="images/Endocrinology_logo_Speakerbook.png"
+                            alt="Endocrinology_logo_Speakerbook">
+                        <p class="">Endocrinology</p>
+                    </center>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <!-- <center>
+            <h1 class="textgrade">We Bring Speaker Program Optimization to Healthcare</h1>
+            <h1 class="textgrade">Pharma CRM built from competitive data.</h1>
 
             <button type="button" class="btn btn-primary atagbut" data-toggle="modal" data-target="#exampleModal">
                 Contact Us
             </button>
 
-        </center>
+        </center> -->
 
 
 
         <div class="container backgrounddrop1">
-                <div class="container">
-                    <center>
-                        <h1 class="textgrade toppadding">Designed By Salesforce Professionals</h1>
-                    </center>
-    
-                    <!-- <center>  <h2 class="toppadding"> Try SpeakerBook right now!</h2></center> -->
-    
-                    <div class="row">
-    
-                        <div class="col-11">
-    
-                            <ul class="paddingverybottom">
-                                <li>
-                                    <h5>The Problem: </h5>
-                                    <p class="paddingsides ">
-                                            Peer to Peer opportunities are the most effective form of selling in the Health Care industry. Physicians not only change behaviors based on these interactions, but they also request more peer to peer opportunities from medical device and Pharma industries.
-                                    </p>
-                                </li>
-                                <li>
-                                    <h5>The Opportunity:</h5>
-                                    <p class="paddingsides "> Despite the effectiveness of peer to peer marketing, Most Pharma companies spend little effort optimizing their most impactful marketing channel. </p>
-                                </li>
-                                <!-- <li><p>Get the paid version free when you sign up today</p></li> -->
-                                <li>
-                                    <h5>The Solution: </h5>
-                                    <p class="paddingsides ">SpeakerBook applications provide turnkey solutions to optimize peer to peer marketing and key opinion leader engagement.</p>
-                                </li>
-                            </ul>
-    
-                        </div>
+            <div class="container">
+                <center>
+                    <h1 class="textgrade toppadding">Better KOL Management and Engagement</h1>
+                </center>
+
+                <!-- <center>  <h2 class="toppadding"> Try SpeakerBook right now!</h2></center> -->
+
+                <div class="row">
+
+                    <div class="col-11">
+
+                        <ul class="paddingverybottom">
+                            <li>
+                                <h5>The Problem: </h5>
+                                <p class="paddingsides ">
+                                    Peer to Peer opportunities are the most effective form of selling in the Health Care
+                                    industry. Physicians not only change behaviors based on these interactions, but they
+                                    also request more peer to peer opportunities from medical device and Pharma
+                                    industries.
+                                </p>
+                            </li>
+                            <li>
+                                <h5>The Opportunity:</h5>
+                                <p class="paddingsides "> Despite the effectiveness of peer to peer marketing, Most
+                                    Pharma companies spend little effort optimizing their most impactful marketing
+                                    channel. </p>
+                            </li>
+                            <!-- <li><p>Get the paid version free when you sign up today</p></li> -->
+                            <li>
+                                <h5>The Solution: </h5>
+                                <p class="paddingsides ">SpeakerBook applications provide turnkey solutions to optimize
+                                    peer to peer marketing and key opinion leader engagement.</p>
+                            </li>
+                        </ul>
+
                     </div>
                 </div>
             </div>
+        </div>
 
 
 
@@ -338,7 +544,8 @@
                 <div class="col-4">
 
 
-                    <img class="card-img-top card-img-top4" src="images/ww2.png" alt="HTML tutorial">
+                    <img class="card-img-top card-img-top4" src="images/speaker_bureau_Speakerbook_logo.png"
+                        alt="speaker bureau Speakerbook logo">
 
                 </div>
                 <div class="col-8">
@@ -360,7 +567,8 @@
 
                     <!-- <a class="card-img-top card-img-top1" href="Analytics.html" imageanchor="1"><img src="images/app_g.png"></a> -->
 
-                    <img class="card-img-top card-img-top4" src="images/ww3.png" alt="HTML tutorial">
+                    <img class="card-img-top card-img-top4" src="images/rx_peer_to_peer_marketing_speakerbook.png"
+                        alt="rx_peer_to_peer_marketing_speakerbook">
 
                 </div>
                 <div class="col-8">
@@ -380,7 +588,8 @@
                 <div class="col-4">
 
 
-                    <img class="card-img-top card-img-top4" src="images/ww1.png" alt="HTML tutorial">
+                    <img class="card-img-top card-img-top4" src="images/pre_call_planning_local_speakerbook.png"
+                        alt="pre_call_planning_local_speakerbook">
 
                 </div>
                 <div class="col-8">
@@ -398,41 +607,41 @@
 
 
         <center>
-                <h1 class="textgrade">Two Business Options To Meet Your Specific Needs</h1>
-                <!-- <h6>Speakerbook is your one stop shop for better management and execution of your speaker programs</h6> -->
-    
-            </center>
-    
-    
-    
+            <h1 class="textgrade">Two Business Options To Meet Your Specific Needs</h1>
+            <!-- <h6>Speakerbook is your one stop shop for better management and execution of your speaker programs</h6> -->
+
+        </center>
+
+
+        <div class="graybackground">
             <div class="container">
                 <div class="row">
-    
-    
+
+
                     <div class="col-6">
                         <!-- <a href="SpeakerBook_KRM.html"> -->
-                            <img class="card-img-top " src="images/Sales_Rep_Solutions.png" alt="Individual Sales Reps">
+                        <img class="card-img-top " src="images/Sales_Rep_Solutions.png" alt="Individual Sales Reps">
                         <!-- </a> -->
-    
+
                     </div>
                     <div class="col-6">
-    
+
                         <!-- <a href="SpeakerBook_Analytics.html"> -->
-                            <img class="card-img-top " src="images/Enterprise_Pricing.png" alt="Enterprise Sales Plans">
+                        <img class="card-img-top " src="images/Enterprise_Pricing.png" alt="Enterprise Sales Plans">
                         <!-- </a> -->
-    
+
                     </div>
-    
+
                 </div>
-    
             </div>
+        </div>
 
 
 
         <center>
-                <!-- <h1 class="textgrade matt">SpeakerBook Applications </h1> -->
+            <!-- <h1 class="textgrade matt">SpeakerBook Applications </h1> -->
 
-            <h1 class="textgrade matt">View Payments From 100's of Companies Including: </h1>
+            <h1 class="textgrade matt">View Payments to KOL's From 100's of Companies Including: </h1>
         </center>
 
         <!-- 
@@ -459,7 +668,8 @@
             </div>
             <div class="card ">
                 <div class="card-body text-center">
-                    <img class="card-img-top" src="images/Bristol-myers Squibb_company_logo.png" alt="Bristol-Myers Squibb Company Logo">
+                    <img class="card-img-top" src="images/Bristol-myers Squibb_company_logo.png"
+                        alt="Bristol-Myers Squibb Company Logo">
                 </div>
             </div>
             <div class="card ">
@@ -612,116 +822,62 @@
                             <form action="https://docs.google.com/forms/d/e/1FAIpQLSfPYCl4c4FmSyVWsD2Kout4_lbxA6LBHiDGvtB-XrRp22tD_A/formResponse" target="_self"
                                 id="bootstrapForm" method="POST"> -->
 
-                        <script type="text/javascript">var submitted = false;</script>
-                        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
-                            onload="if(submitted) {window.location='contact.html';}"></iframe>
-                        <form
-                            action="https://docs.google.com/forms/d/e/1FAIpQLSfPYCl4c4FmSyVWsD2Kout4_lbxA6LBHiDGvtB-XrRp22tD_A/formResponse"
-                            method="post" target="hidden_iframe" onsubmit="submitted=true;">
-
-                            <!-- <fieldset>
-                                    <h2>Contact Information
-                                        <br>
-                                        <small></small>
-                                    </h2>
-                                </fieldset> -->
-
-                                <h4 class="modal-title" id="exampleModalLabel">Solutions Perfect For Your Business Needs!</h4>
-
-                            <!-- Field type: "short" id: "1633920210" -->
-                            <fieldset>
-                                <legend class="farter" for="1633920210">Name</legend>
-                                <div class="form-group">
-                                    <input id="2005620554" type="text" name="entry.2005620554" class="form-control"
-                                        required>
-                                </div>
-                            </fieldset>
+                        <div>
 
 
-                            <!-- Field type: "short" id: "227649005" -->
-                            <fieldset>
-                                <legend class="farter" for="227649005">Email</legend>
-                                <div class="form-group">
-                                    <input id="1045781291" type="text" name="entry.1045781291" class="form-control"
-                                        required>
-                                </div>
-                            </fieldset>
-
-                            <!-- Field type: "dropdown" id: "1770822543" -->
-                            <fieldset>
-                                <legend class="farter" for="1770822543">Area of Interest</legend>
-                                <div class="form-group">
-                                    <select id="1770822543" name="entry.1166974658" class="form-control">
-                                        <option value=""></option>
-                                        <option value="Oncology">Oncology</option>
-                                        <option value="Immunology">Immunology</option>
-                                        <option value="Diabetes">Diabetes</option>
-                                        <option value="Cardiovascular">Cardiovascular</option>
-                                        <option value="Orthopedic Surgery">Orthopedic Surgery</option>
-
-                                    </select>
-                                </div>
-                            </fieldset>
+                            <script type="text/javascript">var submitted = false;</script>
+                            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                                onload="if(submitted) {window.location='contact.html';}"></iframe>
+                            <form
+                                action="https://docs.google.com/forms/d/e/1FAIpQLScK0s4F8kMEojAL8lPAK7LN56_PjuPQMTZxr7yvK_itzqNqrA/formResponse"
+                                method="post" target="hidden_iframe" onsubmit="submitted=true;">
 
 
-                            <!-- Field type: "dropdown" id: "328400995" -->
-                            <fieldset>
-                                <legend class="farter" for="328400995">Join the Super User program?</legend>
-                                <div class="form-group">
-                                    <select id="328400995" name="entry.749204227" class="form-control">
-                                        <option value=""></option>
-                                        <option value="Yes">Yes</option>
-                                        <option value="No">No</option>
-                                    </select>
-                                </div>
-                            </fieldset>
 
-
-                            <!-- Field type: "short" id: "1770822543" -->
-                            <!-- <fieldset>
-                                    <legend for="1770822543">Phone number</legend>
+                                <!-- Field type: "short" id: "1633920210" -->
+                                <fieldset class="fieldsizing">
+                                    <legend for="1633920210" class="floatformname">Name</legend>
                                     <div class="form-group">
-                                        <input id="1166974658" type="text" name="entry.1166974658" class="form-control">
+                                        <input id="2005620554" type="text" name="entry.2005620554" class="form-control"
+                                            required>
                                     </div>
-                                </fieldset> -->
+                                </fieldset>
 
 
-                            <!-- Field type: "paragraph" id: "1846923513" -->
-                            <fieldset>
-                                <legend class="farter" for="1846923513">Comments</legend>
-                                <div class="form-group">
-                                    <textarea id="839337160" name="entry.839337160" class="form-control"
-                                        style="height:200px;font-size:14pt;"></textarea>
-                                </div>
-                            </fieldset>
-
-                            <!-- Field type: "checkboxes" id: "1278749231" -->
-                            <!-- <fieldset>
-                                <legend for="1278749231"></legend>
-                                <div class="form-group">
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox" name="entry.588380995"
-                                                value="Agree to terms of service" required>
-                                            <p class="floater">Agree to<a href="terms.html"> terms of service</a></p>
-                                        </label>
+                                <!-- Field type: "short" id: "227649005" -->
+                                <fieldset>
+                                    <legend for="227649005">Email</legend>
+                                    <div class="form-group">
+                                        <input id="1045781291" type="text" name="entry.1045781291" class="form-control"
+                                            required>
                                     </div>
-                                </div>
-                            </fieldset> -->
+                                </fieldset>
 
-                            <input type="hidden" name="fvv" value="1">
-                            <input type="hidden" name="fbzx" value="-5650086590311247756">
-                            <!--
-          CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
-          This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
-          Keep this in mind if you plan to change this code to recreate any sort of multipage-feature in your exported form.
-          We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
-      -->
-                            <input type="hidden" name="pageHistory" value="0">
 
-                            <center> <input class="btn btn-primary atagbut" type="submit" value="Submit"> </center>
-                        </form>
-                        <p>By clicking "Submit" you agree to our<a href="termsandconditions.html"> Terms of Service and Privacy Policy</a></p>
+                                <!-- Field type: "paragraph" id: "1846923513" -->
+                                <fieldset>
+                                    <legend for="1846923513">Comments</legend>
+                                    <div class="form-group">
+                                        <textarea id="839337160" name="entry.839337160" class="form-control"></textarea>
+                                    </div>
+                                </fieldset>
+
+                                <input type="hidden" name="fvv" value="1">
+                                <input type="hidden" name="fbzx" value="8388058017332724094">
+                                <!--
+                                                          CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
+                                                          This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
+                                                          Keep this in mind if you plan to change this code to recreate any sort of multipage-feature in your exported form.
+                                                          We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
+                                                      -->
+                                <input type="hidden" name="pageHistory" value="0">
+
+                                <center><input class="btn btn-primary atagbut" type="submit" value="Submit"></center>
+                            </form>
+                        </div>
+
+                        <p>By clicking "Submit" you agree to our<a href="termsandconditions.html"> Terms of Service and
+                                Privacy Policy</a></p>
 
                         <img class="container1" src="images/footer.png" alt="footer">
 
@@ -733,7 +889,7 @@
 
 
         <center>
-            <h1 class="textgrade matt"> Client Impact</h1>
+            <h1 class="textgrade matt"> SpeakerBook Client Impact</h1>
             <img class="container1" src="images/Billion_Dollar_Pharma_chart.png" alt="Billion Dollar Sales Chart">
 
 
@@ -832,45 +988,175 @@
 
 
 
-            <button type="button" class="btn btn-primary atagbut" data-toggle="modal" data-target="#exampleModal">
-                Contact Us
-            </button>
         </center>
 
-        <div class="container">
+
+
+        <div class="graybackground">
+            <div class="container">
+                <center>
+                    <h1 class="textgrade matt"> Target Specialties </h1>
+                </center>
                 <div class="row">
-                  <div class="col-4">
-                  <center>     <a href="SpeakerBook_Analytics.html">
-                                <img class="card-img-top card-img-top4" src="images/speakerbook_data_logo_pharma.png" alt="HTML tutorial" >
-                              </a></center> 
-                    <!-- <center>  <a href="speakerbook.html">SpeakerBook</a></center> -->
-                  </div>
-                  <div class="col-4">
-                     <center> <a href="Market_Intel.html">
-                                <img class="card-img-top card-img-top4" src="images/speakerbook_market_intel.png" alt="HTML tutorial" >
-                              </a></center>  
-                    <!-- <center> <a href="Analytics.html">G-BluePrint</a></center> -->
+                    <div class="col-4">
+                        <ul>
+                            <li>Anesthesiology</li>
+                            <li>Cardiology</li>
+                            <li>Dentistry</li>
+                            <li>Dermatology</li>
+                            <li>Endocrinology</li>
+                            <li>Gastroenterology</li>
+                            <li>Geriatrics</li>
+                            <li>Gynecology</li>
+                            <li>Hematology</li>
+                        </ul>
+
                     </div>
-                  <div class="col-4">
-        
-                  <center>    <a href="SpeakerBook_KRM.html">
-                                <img class="card-img-top card-img-top4" src="images/Speakerbook_KRM_pharma.png" alt="HTML tutorial" >
-                              </a></center>  
-                   <!-- <center> <a href="market.html"> Market Intel</a></center> -->
+                    <div class="col-4">
+                        <ul>
+
+                            <li>Hepatology</li>
+                            <li>Immunology</li>
+                            <li>Infectious Disease</li>
+                            <li>Nephrology</li>
+                            <li>Neurology</li>
+                            <li>Obstetrics</li>
+                            <li>Oncology</li>
+                            <li>Ophthalmology</li>
+                            <li>Orthopaedics</li>
+
+
+                        </ul>
+
+                    </div>
+                    <div class="col-4">
+
+                        <ul>
+                            <li>Otolaryngology</li>
+                            <li>Pain Medicine</li>
+                            <li>Pediatrics</li>
+                            <li>Psychiatry</li>
+                            <li>Pulmonology</li>
+                            <li>Radiology</li>
+                            <li>Rheumatology</li>
+                            <li>Sleep Medicine</li>
+                            <li>Surgery</li>
+                            <li>Urology</li>
+                        </ul>
+
                     </div>
                 </div>
-              </div>
+            </div>
+        </div>
+
+
+        <center>
+            <h1 class="textgrade matt">Locate The Correct Experts and Engage in Productive Peer to Peer Interactions
+            </h1>
+        </center>
+        <div class="container containmaxer">
+            <div class="row">
+                <div class="col-4">
+                    <center>
+                        <img class="card-img-top card-img-top4" src="images/UX_UI_Graphs_Visualizations_SpeakerBook.png"
+                            alt="UX_UI_Graphs_Visualizations_SpeakerBook">
+                    </center>
+                    <center>
+                        <h5>Visualizations</h5>
+                        <p>User-friendly graphs for better user integration and adoption. </p>
+                    </center>
+                </div>
+                <div class="col-4">
+                    <center>
+                        <img class="card-img-top card-img-top4" src="images/Mobile_App_Access_SpeakerBook.png"
+                            alt="Mobile_App_Access_SpeakerBook">
+                    </center>
+                    <center>
+                        <h5>Mobile Team Access</h5>
+                        <p>Access all your KOL profiles from your smartphone and iPads on-the-go! </p>
+                    </center>
+                    <!-- <center>  <a href="speakerbook.html">SpeakerBook</a></center> -->
+                </div>
+                <div class="col-4">
+                    <center>
+                        <img class="card-img-top card-img-top4" src="images/Pay-As-You-Go_Speakerbook.png"
+                            alt="Pay-As-You-Go_Speakerbook">
+                    </center>
+                    <center>
+                        <h5>Payment Plans</h5>
+                        <p>Add or remove the number of licenses as needed. Cancel at any time.</p>
+                    </center>
+                    <!-- <center> <a href="market.html"> Market Intel</a></center> -->
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- <button type="button" class="btn btn-primary atagbut" data-toggle="modal" data-target="#exampleModal">
+                    Contact Us
+                  </button> -->
+
+
+
+
+
+        <img class="card-img-top" src="images/Speakerbook_App_Screen_shots_Oncology.png"
+            alt="speakerbook sales speaker bureau image">
+
+        <center> <button type="button" class="btn btn-primary atagbut" data-toggle="modal" data-target="#exampleModal">
+                Get A Demo
+            </button>
+            <h1 class="textgrade matt"> Access profiles of thousands of KOL's and Healthcare Professionals
+            </h1>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <center> <a href="SpeakerBook_Analytics.html">
+                                <img class="card-img-top card-img-top4" src="images/speakerbook_data_logo_pharma.png"
+                                    alt="HTML tutorial">
+                            </a></center>
+                        <!-- <center>  <a href="speakerbook.html">SpeakerBook</a></center> -->
+                    </div>
+                    <div class="col-4">
+                        <center> <a href="Market_Intel.html">
+                                <img class="card-img-top card-img-top4" src="images/speakerbook_market_intel.png"
+                                    alt="HTML tutorial">
+                            </a></center>
+                        <!-- <center> <a href="Analytics.html">G-BluePrint</a></center> -->
+                    </div>
+                    <div class="col-4">
+
+                        <center> <a href="SpeakerBook_KRM.html">
+                                <img class="card-img-top card-img-top4" src="images/Speakerbook_KRM_pharma.png"
+                                    alt="HTML tutorial">
+                            </a></center>
+                        <!-- <center> <a href="market.html"> Market Intel</a></center> -->
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </center>
+
+
 
         <div class="footer1">
 
 
-                <div class="container-fluid">
-                        <!-- Control the column width, and how they should appear on different devices -->
-                        <div class="row">
-                                <!-- <div class="col-sm-2" >
+            <div class="container-fluid">
+                <!-- Control the column width, and how they should appear on different devices -->
+                <div class="row">
+                    <!-- <div class="col-sm-2" >
 
                                     </div> -->
-                          <!-- <div class="col-sm-4" >
+                    <!-- <div class="col-sm-4" >
                                 <div class="colorblack">Pre Registration closes in <span id="time">05:00</span> minutes!</div>
 
                                 <script>
@@ -898,19 +1184,20 @@
                 };
                                 </script> 
                           </div> -->
-                          <div class="col-sm-12" >
-                        
-                                <button type="button" class="btn btn-primary atagbut3" data-toggle="modal" data-target="#exampleModal">
-                                        Learn More
-                                    </button>
-                        </div>
+                    <div class="col-sm-12">
 
-                        <!-- <div class="col-sm-2" >
+                        <button type="button" class="btn btn-primary atagbut3" data-toggle="modal"
+                            data-target="#exampleModal">
+                            Learn More
+                        </button>
+                    </div>
+
+                    <!-- <div class="col-sm-2" >
 
                         </div> -->
-                        </div>
-                        <br>
-          </div>
+                </div>
+                <br>
+            </div>
         </div>
 
     </div>
